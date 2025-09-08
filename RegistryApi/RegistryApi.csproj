@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <OutputType>Library</OutputType>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>RegistryApi</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
@@ -15,10 +15,19 @@
     <RepositoryUrl>https://github.com/bensowieja/RegistryApi</RepositoryUrl>
     <PackageProjectUrl>https://github.com/bensowieja/RegistryApi</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    
+    <!-- Symbol package configuration -->
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <DebugType>portable</DebugType>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All"/>
   </ItemGroup>
 
 </Project>
