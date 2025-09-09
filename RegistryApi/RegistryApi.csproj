@@ -11,10 +11,9 @@
     <Description>A comprehensive Windows Registry management library providing safe and efficient operations for reading, writing, and managing registry keys and values.</Description>
     <PackageTags>registry;windows;api;management;configuration</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/bensowieja/RegistryApi</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/bensowieja/RegistryApi</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/TristanAtze/RegistryApi</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/TristanAtze/RegistryApi</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    
     <!-- Symbol package configuration -->
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
